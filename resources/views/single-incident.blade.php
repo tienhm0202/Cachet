@@ -11,6 +11,7 @@
 @stop
 
 @section('content')
+<div class="single-incident-wrapper" style="background-color: white">
 <h1>{{ $incident->name }} <small>{{ $incident->occurred_at_formatted }}</small></h1>
 
 <hr>
@@ -58,6 +59,7 @@
     </div>
 </div>
 @endif
+</div>
 @stop
 
 @section('bottom-content')
